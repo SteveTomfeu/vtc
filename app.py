@@ -23,7 +23,7 @@ def load_and_clean_data():
     df.dropna(subset=['id_course'], inplace=True)
     df['duree_min'] = df['duree_min'].fillna(0)
     df['mois_nom'] = df['mois'].apply(lambda x: calendar.month_name[int(x)])
-    df['jour_nom'] = df['jour'].dt.day_name(locale='French')
+    df['jour_nom'] = df['jour'].dt.day_name(locale='fr_FR.UTF-8')
     df['jour_nom'] = df['jour_nom'].astype(str).str.strip().str.capitalize()
     return df
 
