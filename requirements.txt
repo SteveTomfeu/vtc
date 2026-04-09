@@ -48,3 +48,4 @@ wrapt==1.17.2
 wsproto==1.2.0
 streamlit==1.56.0
 plotly==6.6.0
+plotly-express==0.4.1
