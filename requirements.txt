@@ -46,3 +46,5 @@ watchfiles==1.1.0
 wheel==0.44.0
 wrapt==1.17.2
 wsproto==1.2.0
+streamlit==1.56.0
+plotly==6.6.0
