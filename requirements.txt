@@ -29,7 +29,6 @@ PyQtWebEngine==5.15.6
 python-engineio==4.12.2
 python-multipart==0.0.20
 python-socketio==5.13.0
-pywin32==305.1
 PyYAML==6.0.2
 redis==6.2.0
 reflex==0.8.1
